@@ -1,0 +1,8 @@
+Total number of months :  86
+Total profit/loss :  22564198
+Number of changes :  85
+Average of changes :  -8311.105882352942
+Maximum change :  1862002
+Maximum change date :  Aug-16
+Minimum change :  -1825558
+Minimum change date :  Feb-14
