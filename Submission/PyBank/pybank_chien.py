@@ -2,7 +2,7 @@
 import csv
 
 # Set filepath of csv file
-csvpath = "C:/Users/eugch/OneDrive/Documents/MyBootcamp/Homework/ds_apr2024_hw_3_python/Submission/PyBank/Resources/budget_data.csv"
+csvpath = "Submission/PyBank/Resources/budget_data.csv"
 
 # Declare variables
 month_count = 0
@@ -63,7 +63,7 @@ min_month = month_changes[min_month_indx]
 print('Minimum change : ', min_change)
 print('Minimum change date : ', min_month)
 
-f = open("C:/Users/eugch/OneDrive/Documents/MyBootcamp/Homework/ds_apr2024_hw_3_python/Submission/PyBank/analysis/pybank_chien.txt",'w')
+f = open("Submission/PyBank/analysis/pybank_chien.txt",'w')
 print('Total number of months : ', month_count, file=f)
 print('Total profit/loss : ', total_profit, file=f)
 print('Number of changes : ', len(changes), file=f)
