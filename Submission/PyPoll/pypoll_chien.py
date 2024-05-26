@@ -14,7 +14,7 @@ from collections import defaultdict
 
 
 # Set filepath of csv file
-csvpath = "Submission/PyPoll/Resources/election_data.csv"
+csvpath = "Resources/election_data.csv"
 
 # Declare variables
 total_votes = 0
@@ -50,7 +50,7 @@ for candidate, vote_count in candidate_dict.items():
     percentage = (vote_count / total_votes) * 100
     results.append(f"{candidate}: {percentage:.3f}% ({vote_count})")
 
-f = open("Submission/PyPoll/analysis/pypoll_chien.txt",'w')
+f = open("analysis/pypoll_chien.txt",'w')
 print("Total number of votes cast : ", total_votes, file=f)
 print("Winner by popular vote :", winner, file=f)
 print("List of candidates including % and # of votes won :", results, file=f)
